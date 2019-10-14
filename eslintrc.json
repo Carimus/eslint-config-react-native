@@ -1,0 +1,11 @@
+{
+    "env": {
+        "react-native/react-native": true
+    },
+    "plugins": ["react-native"],
+    "extends": ["@carimus/eslint-config-react"],
+    "rules": {
+        "react-native/split-platform-components": "error",
+        "react-native/no-unused-styles": "error"
+    }
+}
